@@ -38,35 +38,42 @@ p, h3 {
   clear: both;
 }
 
-/* HEADER */
-header p {
+/* Navigation */
+nav h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-size: 30px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
-nav ul {
-  list-style-type: none;
-  justify-content: flex-end;
+nav h1 a{
+  text-decoration: none;
+  color: #fff;
 }
 
-nav li {
-  display: inline;
-  padding-left: 45px;
-  font-size: 30px;
-  justify-content: flex-end;
-}
-
-header {
-  display: flex;
-}
-
-header p {
-  width: 50%;
-}
 nav {
-width: 50%;
-justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
 }
+
+nav ul{
+    list-style: none;
+    padding:0 40px 0 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+  padding: 0 1rem;
+  font-size: 30px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
 
 /* hero section */
 #hero {
